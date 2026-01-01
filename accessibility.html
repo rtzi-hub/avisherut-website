@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="he" dir="rtl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#0B4C8C" />
+  <title>הצהרת נגישות | אבי צדקי - שירות למוצרי חשמל</title>
+  <meta name="robots" content="index,follow" />
+  <link rel="stylesheet" href="assets/styles.css" />
+  <script src="assets/a11y.js" defer></script>
+</head>
+<body>
+
+  <a class="skip-link" href="#main">דלג לתוכן</a>
+
+  <header class="header">
+    <div class="container topbar">
+      <a class="brand" href="index.html" aria-label="חזרה לדף הבית">
+        <span class="brandText">
+          <span class="title">אבי צדקי - שירות למוצרי חשמל</span>
+          <span class="sub">הצהרת נגישות</span>
+        </span>
+      </a>
+      <div class="actions">
+        <a class="btn primary" href="tel:0522230741">לחיוג</a>
+      </div>
+    </div>
+  </header>
+
+  <main id="main" tabindex="-1" class="main">
+    <section class="section">
+      <div class="container">
+        <div class="sectionHead">
+          <h1 style="margin:0; font-size:28px;">הצהרת נגישות</h1>
+          <p>עודכן בתאריך: <strong>29/12/2025</strong></p>
+        </div>
+
+        <div class="card">
+          <h2 style="margin-top:0;">מטרה</h2>
+          <p>
+            אנו עושים מאמצים להנגיש את האתר ולאפשר גלישה נוחה ככל האפשר לכלל המשתמשים,
+            לרבות אנשים עם מוגבלות.
+          </p>
+
+          <h2>תקן/רגולציה</h2>
+          <p>
+            האתר שואף לעמוד בהוראות תקנות הנגישות לשירות ובהנחיות התקן הישראלי ת״י 5568,
+            המבוסס על הנחיות WCAG (ברמת AA ככל הניתן).
+          </p>
+
+          <h2>התאמות נגישות שבוצעו באתר</h2>
+          <ul>
+            <li>ניווט מלא באמצעות מקלדת (Tab / Shift+Tab / Enter / Esc).</li>
+            <li>סימון פוקוס ברור לרכיבי טופס, קישורים וכפתורים.</li>
+            <li>מבנה כותרות תקין ותגיות שפה/כיוון (RTL).</li>
+            <li>טקסט חלופי לתמונות משמעותיות (כגון לוגו).</li>
+            <li>טפסים עם תוויות (labels) והודעות סטטוס.</li>
+          </ul>
+
+          <h2>מגבלות/חריגים</h2>
+          <p>
+            למרות המאמצים, ייתכן שחלקים מסוימים באתר עדיין אינם נגישים באופן מלא.
+            אם נתקלתם בבעיה – נשמח לקבל פנייה ולטפל בה בהקדם.
+          </p>
+
+          <h2>יצירת קשר בנושא נגישות</h2>
+          <p>
+            אם קיימת בעיית נגישות באתר או אם אתם צריכים חלופה נגישה לקבלת מידע/שירות,
+            ניתן לפנות אלינו:
+          </p>
+          <ul>
+            <li><strong>אחראי נגישות:</strong> אבי צדקי</li>
+            <li><strong>טלפון:</strong> <span class="ltr">052-2230741</span></li>
+            <li><strong>וואטסאפ:</strong> <a href="https://wa.me/972522230741" target="_blank" rel="noreferrer noopener">שליחת הודעה</a></li>
+          </ul>
+
+          <p style="margin-bottom:0;">
+            נחזור אליכם בהקדם האפשרי עם מענה/פתרון.
+          </p>
+        </div>
+
+        <p style="margin-top:12px;">
+          <a href="index.html">חזרה לדף הבית</a>
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container foot">
+      <div>© <span id="year"></span> אבי צדקי - שירות למוצרי חשמל</div>
+      <div class="ltr">052-2230741</div>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+
+  <!-- כלי נגישות -->
+    <button
+    class="a11yFab"
+    type="button"
+    aria-controls="a11yPanel"
+    aria-expanded="false"
+    aria-label="אפשרויות נגישות"
+  >
+    <img
+      class="a11yIcon"
+      src="assets/accessibility.png"
+      alt=""
+      aria-hidden="true"
+      width="28"
+      height="28"
+      loading="lazy"
+      decoding="async"
+    />
+    <span class="srOnly">אפשרויות נגישות</span>
+  </button>
+  
+    <aside id="a11yPanel" class="a11yPanel" aria-label="אפשרויות נגישות" hidden role="dialog" aria-modal="false">
+      <div class="a11yHead">
+        <strong>אפשרויות נגישות</strong>
+        <button class="iconBtn" type="button" aria-label="סגור" data-close-a11y>✕</button>
+      </div>
+  
+      <div class="a11yGrid">
+        <button class="a11yBtn" type="button" data-font="inc">הגדלת טקסט</button>
+        <button class="a11yBtn" type="button" data-font="dec">הקטנת טקסט</button>
+        <button class="a11yBtn" type="button" data-contrast="toggle">ניגודיות גבוהה</button>
+        <button class="a11yBtn" type="button" data-links="toggle">הדגשת קישורים</button>
+        <button class="a11yBtn" type="button" data-reset="true">איפוס</button>
+      </div>
+  
+      <p class="a11yNote">
+        אם משהו לא נגיש לכם – התקשרו <span class="ltr">052-2230741</span> ונעזור מיד.
+      </p>
+    </aside>
+
+
+</body>
+</html>
