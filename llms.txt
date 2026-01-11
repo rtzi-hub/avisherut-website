@@ -1,0 +1,9 @@
+# avisherut.info
+Short: Describe what this site is about in 1–2 sentences.
+
+## Best pages
+- https://avisherut.info/
+- https://avisherut.info/accessibility.html
+
+## Sitemap
+- https://avisherut.info/sitemap.xml
